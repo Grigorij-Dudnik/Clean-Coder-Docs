@@ -28,8 +28,8 @@ export default defineConfig({
                   ],
               },
               {
-                  label: 'Usage',
-                  autogenerate: { directory: 'usage' },
+                  label: 'Features',
+                  autogenerate: { directory: 'features' },
               },
               {
                   label: 'Community',
