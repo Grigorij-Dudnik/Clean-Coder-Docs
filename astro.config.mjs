@@ -13,7 +13,7 @@ export default defineConfig({
           },
           sidebar: [
               {
-                  label: 'Getting Started',
+                  label: 'Quick Start',
                   items: [
                       // Each item here is one entry in the navigation menu.
                       { label: 'AI Coder', slug: 'getting_started/programmer_pipeline' },
