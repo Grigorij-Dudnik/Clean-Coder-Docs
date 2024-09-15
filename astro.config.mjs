@@ -16,8 +16,8 @@ export default defineConfig({
                   label: 'Quick Start',
                   items: [
                       // Each item here is one entry in the navigation menu.
-                      { label: 'AI Coder', slug: 'getting_started/programmer_pipeline' },
-                      { label: 'AI Project Manager', slug: 'getting_started/manager' },
+                      { label: 'AI Coder', slug: 'quick_start/programmer_pipeline' },
+                      { label: 'AI Project Manager', slug: 'quick_start/manager' },
                   ],
               },
               {
