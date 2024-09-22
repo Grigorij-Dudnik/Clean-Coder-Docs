@@ -17,7 +17,7 @@ The Project Manager agent in Clean Coder automates task management using Todoist
 
 ## Describe your project
 
-Now it's time to write a description of your project. In the project directory open .clean_coder/project_description.txt (.clean_doder catalog with all needed files inside will be created automatically after first run of application). Describe your project here and save.
+Now it's time to write a description of your project. In the project directory, open .clean_coder/project_description.txt (start Clean Coder for a few seconds and then close to create the .clean_coder directory). Describe your project here and save.
 
 <div style="background-color: #e6f4ea; border-radius: 15px; padding: 25px; margin: 20px 0;">
 <strong>🔥 Tips for a Good Project Description:</strong>
