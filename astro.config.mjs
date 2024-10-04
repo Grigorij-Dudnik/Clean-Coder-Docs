@@ -18,6 +18,7 @@ export default defineConfig({
                       // Each item here is one entry in the navigation menu.
                       { label: 'AI Coder', slug: 'quick_start/programmer_pipeline' },
                       { label: 'AI Project Manager', slug: 'quick_start/manager' },
+                      { label: 'Run with Docker', slug: 'quick_start/run_with_docker' },
                   ],
               },
               {
