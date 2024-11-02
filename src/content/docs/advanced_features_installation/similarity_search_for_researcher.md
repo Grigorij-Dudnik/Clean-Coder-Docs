@@ -12,7 +12,7 @@ This tool allows the agent to search files by text query (similar to how you fin
 
 1. Create a vector database with descriptions of your project files by running:
 
-`python rag/write_descriptions.py`
+`python tools/rag/write_descriptions.py`
 
 
 2. Get [api key for Cohere](https://docs.aicontentlabs.com/articles/cohere-api-key/)

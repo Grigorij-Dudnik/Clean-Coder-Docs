@@ -36,7 +36,7 @@ Optional, but recommnded:
 #### Run coding pipeline:
 
 ```
-docker-compose run clean_coder_pipeline
+docker-compose run single_task_coder
 ```
 
 #### Set up Project Manager
@@ -48,21 +48,10 @@ docker-compose run clean_coder_pipeline
 
 ![Todoist project ID](../../../assets/project_id.png)
 
-Now it's time to write a description of your project. In the project directory, open .clean_coder/project_description.txt (start Clean Coder for a few seconds and then close to create the .clean_coder directory). Describe your project here and save.
-
-<div style="background-color: #e6f4ea; border-radius: 15px; padding: 25px; margin: 20px 0;">
-<strong>🔥 Tips for a Good Project Description:</strong>
-<ul>
-<li>Provide a clear vision for each feature</li>
-<li>Specify if tests and docs should be included</li>
-<li>Add any other relevant details that could help the AI understand your project better</li>
-</ul>
-</div>
-
 #### Run Project Manager
 
 ```
-docker-compose run project_manager
+docker-compose run manager
 ```
 
 ---

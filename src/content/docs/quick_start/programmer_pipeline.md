@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ## Run coding pipeline:
 
 ```
-python clean_coder_pipeline.py
+python single_task_coder.py
 ```
 
 ## Working process
@@ -53,7 +53,10 @@ The same rules for creating good tasks for human programmers apply here.
 </ul>
 </div>
 
-Your task will be executed by Clean Coder agents in sequence: Researcher, Planner, and then Executor.
+Your task will be executed by Clean Coder agents in sequence: Researcher, Planner, Executor, and Debugger.
+
+
+![Agents_pipeline_illustration](../../../assets/Clean_Coder_diagram.png)
 
 #### Researcher Agent
 
@@ -63,13 +66,17 @@ Once complete, found files will be displayed. Accept them or provide feedback if
 
 #### Planner Agent
 
-Planner drafts the plan for code modifications. Review the proposed plan and request changes until it's satisfactory.
+Planner drafts code modification plans. Review and request changes until the plan is satisfactory. Don't accept plans you don't understand - debugging will be painful without understanding your code.
 
 #### Executor Agent
 
-This is where the actual magic happens. Executor implements the planned changes to your project files. You'll need to accept proposed changes for safety reasons. If you feel Executor wants to introduce a wrong change, you can interrupt by writing (or telling) your feedback.
+Executor implements planned changes to your project files. Being based on a fast model, it completes work relatively quickly.
 
-When the job is done, Executor calls the "final_response" tool and asks you to check if the feature works. You can connect feedback from the log file to automate eventual bug corrections.
+#### Debugger agent
+
+If the Executor's changes don't fully solve the task, you'll need the Debugger - a more powerful and intelligent agent that can access logs and visual feedback. Use it to polish code after the Executor's work.
+
+For safety, you must approve all changes. Interrupt if you see wrong changes being made. Don't accept changes you don't understand - again, debugging will be painful. Keep your IDE open to monitor code modifications in real-time.
 
 ## Demo video
 

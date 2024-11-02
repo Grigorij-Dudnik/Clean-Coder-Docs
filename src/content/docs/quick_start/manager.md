@@ -15,9 +15,16 @@ The Project Manager agent in Clean Coder automates task management using Todoist
 ![Todoist project ID](../../../assets/project_id.png)
 
 
+## Run Manager
+
+In your virtual environment, run:
+```
+python manager.py
+```
+
 ## Describe your project
 
-Now it's time to write a description of your project. In the project directory, open .clean_coder/project_description.txt (start Clean Coder for a few seconds and then close to create the .clean_coder directory). Describe your project here and save.
+At first start, Manager will ask you to write description of your project. Fill it with as many details as possible.
 
 <div style="background-color: #e6f4ea; border-radius: 15px; padding: 25px; margin: 20px 0;">
 <strong>🔥 Tips for a Good Project Description:</strong>
@@ -28,22 +35,17 @@ Now it's time to write a description of your project. In the project directory, 
 </ul>
 </div>
 
-## Run Manager
-
-In your virtual environment, run:
-```
-python project_manager.py
-```
+You can modify project description at any time by opening `.clean_coder/project_description.txt` file in your project directory.
 
 ## Working with Manager
 
 The Manager will create well-described tasks, including the Definition of Done, in your Todoist. For safety, you'll need to approve every task creation, modification, and deletion.
 
-Once the Manager created complete list tasks for your project, it use the 'finish_project_planning' tool. First task from top will enter the programming pipeline.
+Once the Manager created complete list tasks for your project, it will use the `finish_project_planning` tool. First task from top will enter the programming pipeline.
 
-You will collaborate with the Researcher, Planner, and Executor agents on that task. Completed task will be marked as done in Todoist, and you will'be asked to provide feedback to the Manager if task been executed good or needed improvements.
+You will collaborate with the Researcher, Planner, and Executor agents on each task. Completed tasks will be marked as done in Todoist, and you will be asked to provide feedback to the Manager on whether the task was executed well or needs improvements.
 
-This process executes tasks one after another until the project is complete.
+This process continues with tasks being executed one after another until the project is finished.
 
 ---
 Happy coding! 😋
