@@ -35,6 +35,12 @@ pip install -r requirements.txt
 4. Add it to your .env file: `ANTHROPIC_PROJECT_ID=your_api_key_here`.
 5. Create a folder for your programming project if it doesn't exist yet.
 6. Provide full path to your project dir in .env file: `WORK_DIR=/path/to/your/project/dir`.
+7. (Optional) It's recommended to run
+```
+python tools/rag/write_descriptions.py
+```
+to set create descriptions for a rag tool. Read more on the [rag tool page](/advanced_features_installation/similarity_search_for_researcher/).
+
 
 ## Run coding pipeline:
 
