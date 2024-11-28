@@ -5,7 +5,7 @@ description: Install basic Clean Coder feature and start coding with it.
 
 import VideoEmbed from '../../../components/VideoEmbed.astro';
 
-Basic Clean Coder functionality - the ability to implement a task into your project. Tasks can be anything from creating a new page to fixing a bug or implementing a logic feature. Relax and watch AI code for you!
+Basic Clean Coder functionality - the ability to implement a task into your project. Tasks can be anything from creating a new page to fixing a bug or implementing a logic feature. Relax and watch AI codes for you!
 
 ## Installation
 
@@ -16,9 +16,6 @@ git clone https://github.com/GregorD1A1/Clean-Coder-AI
 # go to directory
 cd Clean-Coder-AI
 
-# create file with envinronment variables from template
-cp .env.template .env
-
 # create virtual environment and activate
 python -m venv venv
 source venv/bin/activate
@@ -27,26 +24,19 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Minimal set up
-
-1. Get your [OpenAI API key](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key).
-2. Add it to your .env file: `OPENAI_API_KEY=your_api_key_here`.
-3. Get [Anthropic API key](https://www.merge.dev/blog/anthropic-api-key).
-4. Add it to your .env file: `ANTHROPIC_PROJECT_ID=your_api_key_here`.
-5. Create a folder for your programming project if it doesn't exist yet.
-6. Provide full path to your project dir in .env file: `WORK_DIR=/path/to/your/project/dir`.
-7. (Optional) It's recommended to run
-```
-python tools/rag/write_descriptions.py
-```
-to set create descriptions for a rag tool. Read more on the [rag tool page](/advanced_features_installation/similarity_search_for_researcher/).
-
-
 ## Run coding pipeline:
 
 ```
 python single_task_coder.py
 ```
+
+## Initial set up
+
+When running Single Task Coder for the first time, it will ask you for a few variables, which it saves in the .env file.
+
+First, you need to provide API key(s) for your LLM provider(s). Provide at least one key for [Anthropic](https://www.merge.dev/blog/anthropic-api-key), [OpenAI](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key), OpenRouter, or provide the name of your Ollama model if you want to work with a local LLM. However, the more keys you provide the better, as a second LLM could work as a fallback in case of main LLM shortages.
+
+Next, you'll be asked to provide the full path to the directory in which you want to write/modify your code.
 
 ## Working process
 
@@ -88,7 +78,7 @@ For safety, you must approve all changes. Interrupt if you see wrong changes bei
 
 ## Demo video
 
-<VideoEmbed videoId="PEPfDQyGE9w" title="Microphone feature" />
+<VideoEmbed videoId="PEPfDQyGE9w" title="Single task coder" />
 
 ---
 Happy coding! 😋
