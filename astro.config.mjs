@@ -10,6 +10,7 @@ export default defineConfig({
           title: 'Clean Coder Docs',
           social: {
               github: 'https://github.com/GregorD1A1/Clean-Coder-AI',
+              discord: 'https://discord.gg/8gat7Pv7QJ',
           },
           sidebar: [
               {
