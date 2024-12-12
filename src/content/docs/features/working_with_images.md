@@ -12,3 +12,5 @@ Clean Coder can create frontend pages from graphical designs or simple mockups s
 3. When creating a task (manually or via manager), mention the availability of design files.
 
 This ensures the Researcher agent can locate and provide appropriate images to the next agents in the pipeline.
+
+To improve that even more, consider enabling [frontend feedback feature](/features/frontend_feedback).
