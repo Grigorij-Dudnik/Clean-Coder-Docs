@@ -13,10 +13,10 @@ The more AI knows about your project, the faster it will do tasks. Tell Clean Co
 
 During project setup, describe how your project is organized, file/folder responsibilities, and coding practices to use or avoid.
 
-<div style="background-color: #e6f4ea; border-radius: 15px; padding: 25px; margin: 20px 0;">
+<div style="background-color: #e6f4ea; border-radius: 15px; padding: 25px; margin: 20px 0; color: #111111;">
 <strong>🤔 Did you known?</strong>
 
-If you have project documentation describing rules of you project, you can paste it into `.coderignore`. Both text and markdown acceptable.
+If you have project documentation describing rules of you project, you can paste it into .coderignore. Both text and markdown acceptable.
 </div>
 
 If you used earlier Cursor as your AI coder, and decided to switch to a better one, you can just rename `.cursorrules` file to `.coderrules`.
