@@ -14,32 +14,29 @@ within your virtual environment, run:
 python manager.py
 ```
 
-## Initial set up
+### When running for a first time
 
-#### Set up envinronment variables
+When running Manager for the first time, it will ask you for a few variables, which it saves automatically in the .env file.
 
-When running Manager for the first time, it will ask you for a few variables, which it saves in the .env file.
+1. **API Keys**: Provide at least one API key for [Anthropic](https://www.merge.dev/blog/anthropic-api-key), [OpenAI](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key), or OpenRouter. Adding more keys ensures fallback options during LLM shortages.
 
-First, you need to provide API key(s) for your LLM provider(s). Provide at least one key for [Anthropic](https://www.merge.dev/blog/anthropic-api-key), [OpenAI](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key), OpenRouter, or provide the name of your Ollama model if you want to work with a local LLM. However, the more keys you provide the better, as a second LLM could work as a fallback in case of main LLM shortages.
+2. **Directory Path**: Enter the full path to the directory where you want to write or modify code.
 
-Next, you'll be asked to provide the full path to the directory in which you want to write/modify your code.
+3. **Todoist API Key**: Provide your [Todoist API key](https://todoist.com/help/articles/find-your-api-token-Jpzx9IIlB).
 
-You'll also need to provide your [Todoist API key](https://todoist.com/help/articles/find-your-api-token-Jpzx9IIlB).
+4. **Coding Rules (Optional)**: Optionally, provide coding rules for your project. Learn more [here](/features/coderrules).
 
-#### Describe your project
-
-At first start, Manager will ask you to write description of your project. Fill it with as many details as possible.
+5. **Describe Your Vision**: On the first run, Manager will prompt you to describe your project in detail. Include as much information as possible.
 
 <div style="background-color: #e6f4ea; border-radius: 15px; padding: 25px; margin: 20px 0; color: #111111;">
 <strong>🔥 Tips for a Good Project Description:</strong>
 <ul>
 <li>Provide a clear vision for each feature</li>
 <li>Specify if tests and docs should be included</li>
-<li>Add any other relevant details that could help the AI understand your project better</li>
 </ul>
 </div>
 
-You can modify project description at any time by opening `.clean_coder/project_description.txt` file in your project directory.
+You can update the project vision anytime by editing the `.clean_coder/project_plan.txt` file in your project directory.
 
 ## Working with Manager
 
