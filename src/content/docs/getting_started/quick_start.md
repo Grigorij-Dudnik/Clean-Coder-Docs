@@ -69,7 +69,7 @@ When running Single Task Coder for the first time, it will prompt you to input a
 </div>
 You can update the project vision anytime by editing the `.clean_coder/project_plan.txt` file in your project directory.
 
-The basic setup is done! Go ahead and learn how to use [Manager](/usage/manager) or [Single Task](/usage/programmer_pipeline) functionalities.
+The basic setup is done! Go ahead and learn how to use [Manager](/usage/manager) or [Single Task](/usage/single_task_coder) functionalities.
 
 ---
 Happy coding! 😋

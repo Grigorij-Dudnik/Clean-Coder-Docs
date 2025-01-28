@@ -14,11 +14,11 @@ export default defineConfig({
           },
           sidebar: [
               {
-                  label: 'Quick Start',
+                  label: 'Getting Started',
                   items: [
                       // Each item here is one entry in the navigation menu.
-                      { label: 'Quick Start', slug: 'quick_start/quick_start' },
-                      { label: 'Run with Docker', slug: 'quick_start/run_with_docker' },
+                      { label: 'Quick Start', slug: 'getting_started/quick_start' },
+                      { label: 'Run with Docker', slug: 'getting_started/run_with_docker' },
                   ],
               },
               {
