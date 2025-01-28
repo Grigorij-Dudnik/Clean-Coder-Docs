@@ -1,0 +1,36 @@
+---
+title: Manager Agent
+description: Guide how to work with Project Manager (or Scrum Master) agent.
+---
+
+import VideoEmbed from '../../../components/VideoEmbed.astro';
+
+The Project Manager agent in Clean Coder automates task management using Todoist integration. It defines tasks and ensures their sequential execution. Relax and watch AI codes for you!
+
+## Run Manager
+
+Within your virtual environment, run:
+```
+python manager.py
+```
+
+## Working with Manager
+
+The Manager will create well-described tasks in your Todoist. For safety, you'll need to approve every task creation, modification, and deletion.
+
+Once the Manager has created a complete list of tasks for your project, it will use the `finish_project_planning` tool. The task at the top of your Todoist will be executed in the [programming pipeline](/usage/single_task_coder).
+
+You will collaborate with the Researcher, Planner, and Executor agents on each task. Completed tasks will be marked as done in Todoist, and you will be asked to provide feedback to the Manager on whether the task was executed well or needs improvements.
+
+This process continues with tasks being executed sequentially until the project is finished.
+
+![Manager_illustration](../../../assets/CC_diagram_full.png)
+
+<p style="text-align: center"><em>Diagram of how Clean Coder works.</em></p>
+
+## Demo video
+
+<VideoEmbed videoId="aNpB-Tw-YPw" title="Manager" />
+
+---
+Happy coding! 😋

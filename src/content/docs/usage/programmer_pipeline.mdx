@@ -1,57 +1,16 @@
 ---
-title: AI Coder
+title: Single Task Pipeline
 description: Install basic Clean Coder feature and start coding with it.
 ---
 
 import VideoEmbed from '../../../components/VideoEmbed.astro';
 
-Basic Clean Coder functionality - the ability to implement a task into your project. Tasks can be anything from creating a new page to fixing a bug or implementing a logic feature. Relax and watch AI codes for you!
 
-## Installation
-Clone repo:
+Single Task Pipeline is a simple way to implement concrete features or fixes in your project when using the full Manager agent would be overkill. It's ideal for smaller, well-defined changes such as creating a new page, fixing a bug, or implementing a particular functionality.
 
-```
-git clone https://github.com/GregorD1A1/Clean-Coder-AI
-```
-Go to directory:
-```
-cd Clean-Coder-AI
-```
-Create virtual environment and activate:
-
-*Linux/Mac:*
-```
-python3 -m venv venv
-source venv/bin/activate
-```
-*Windows:*
-```
-python -m venv venv
-venv\Scripts\activate
-```
-Install dependencies:
-```
-pip install -r requirements.txt
-```
-
-## Run coding pipeline:
-
-```
-python single_task_coder.py
-```
-
-### First-Time Setup
-
-When running Single Task Coder for the first time, it will prompt you to input a few variables, which are saved in the `.env` file.
-
-1. **API Keys**: Provide at least one API key for [Anthropic](https://www.merge.dev/blog/anthropic-api-key), [OpenAI](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key), or OpenRouter. Adding more keys ensures fallback options during LLM shortages.
-
-2. **Directory Path**: Enter the full path to the directory where you want to write or modify code.
-
-3. **Coding Rules (Optional)**: Optionally, provide coding rules for your project. Learn more [here](/features/coderrules).
 ## Working process
 
-You will be prompted to describe task Clean Coder need to execute. Write the description or enable listening and just say it.
+You will be prompted to describe the task Clean Coder need to execute. Write the description or enable microphone just to say it.
 
 <div style="background-color: #e6f4ea; border-radius: 15px; padding: 25px; margin: 20px 0; color: #111111;">
 <strong>🔥 Tips for a Good Task Description:</strong>
@@ -85,6 +44,8 @@ Executor implements planned changes to your project files.
 #### Debugger agent
 
 If the Executor's changes don't fully solve the task, you'll need the Debugger - a more powerful and intelligent agent that can access logs and visual feedback. Use it to polish code after the Executor's work.
+
+---
 
 For safety, you must approve all changes. Interrupt if you see wrong changes being made. Don't accept changes you don't understand - again, debugging will be painful. Keep your IDE open to monitor code modifications in real-time.
 

@@ -35,10 +35,13 @@ docker-compose run manager
 
 ---
 
-<div style="background-color: #fefbb1; border-radius: 15px; padding: 25px; margin: 20px 0;">
+<div style="background-color: #fefbb1; border-radius: 15px; padding: 25px; margin: 20px 0; color: #111111;">
 <strong>🎙️ How to use microphone feature inside of Docker:</strong>
 <br>
 By default, the microphone feature is not available in Docker containers due to hardware limitations. To enable it, configure your audio input device in the docker-compose.yml file. Uncomment the device section and provide the correct path to your microphone. The default path provided is for Linux; other systems require different paths.
 </div>
+
+The basic setup is done! Go ahead and learn how to use [Manager](/usage/manager) or [Single Task](/usage/single_task_coder) functionalities.
+
 ---
 Happy coding! 😋

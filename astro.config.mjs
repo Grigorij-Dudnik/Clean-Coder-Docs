@@ -17,11 +17,14 @@ export default defineConfig({
                   label: 'Quick Start',
                   items: [
                       // Each item here is one entry in the navigation menu.
-                      { label: 'AI Coder', slug: 'quick_start/programmer_pipeline' },
-                      { label: 'AI Project Manager', slug: 'quick_start/manager' },
+                      { label: 'Quick Start', slug: 'quick_start/quick_start' },
                       { label: 'Run with Docker', slug: 'quick_start/run_with_docker' },
                   ],
               },
+              {
+                label: 'Usage',
+                autogenerate: { directory: 'usage' },
+            },
               {
                   label: 'Advanced Features Installation',
                   items: [
