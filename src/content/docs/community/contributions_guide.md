@@ -11,7 +11,7 @@ In case of major changes, please open an issue first or write your proposition o
 
 ## Helpful tools:
 
-To make development 10x faster: check out non_src/tests/manual_tests. Using scripts in this directory, you can run every agent separately without needing to run through the full pipeline. 
+To make development 10x faster: check out `non_src/tests/manual_tests`. Using scripts in this directory, you can run every agent separately without needing to run through the full pipeline. 
 
 ## Main rules to follow:
 
