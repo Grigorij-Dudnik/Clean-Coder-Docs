@@ -20,4 +20,4 @@ To make development 10x faster: check out `non_src/tests/manual_tests`. Using sc
 - Place into `src` folder things directly related to Clean Coder logic, and into `non_src` all the rest (tests for example).
 
 ---
-Let's build something great together!
+Let's build something great together! 🫡
