@@ -1,23 +1,23 @@
 ---
-title: Similarity search tool for Researcher
-description: Enable similarity search (RAG) tool n arsenal of the researcher agnt to boost his performance.
+title: Searching Large Codebases
+description: Enable similarity search (RAG) tool n arsenal of the researcher agent to boost his performance.
 ---
 
-Want to have the Researcher agent find needed files even better? Provide it with a Semantic Search (RAG) tool!
+Want your Researcher agent to efficiently find needed elements in even large codebases? 🚀 Enable a Semantic Search (RAG) tool!
 
-This tool allows the agent to search files by text query (similar to how you find articles in Google), which is compared with file descriptions.
+Semantic Search tool allows Researcher to find needed elements by semantic queries, e.g. "Find me definition of database endpoints", "Show example of structured output usage".
 
 
 ## Set up
 
-1. Create a vector database with descriptions of your project files by running:
+Process of chunking, describing and indexing of codebase Clean Coder will hanle automatically. Just choose "Proceed" when asked during startup.
 
-`python tools/rag/write_descriptions.py`
+![Indexing dialog](../../../assets/ask_to_index.png)
 
+<div style="background-color: #fefbb1; border-radius: 15px; padding: 25px; margin: 20px 0; color: #111111;">
+<strong>💸⏰ Indexing process could be costly and time consuming!</strong>
+<br>
+Cost and time of indexing depends on size of your codebase and size of your files. Hopefully we use cheap models for it. Approximately, you can count 1$ per 200 files.
+</div>
 
-2. Get [api key for Cohere](https://docs.aicontentlabs.com/articles/cohere-api-key/)
-
-3. Add it to your .env file: `COHERE_API_KEY=your_api_key_here`
-
-
-That's all! Now your Researcher agent is equipped in additional tool and will be able to navigate big project better.
+That's all! Now your Researcher has supercharged navigation for big projects. ✨

@@ -28,7 +28,7 @@ export default defineConfig({
               {
                   label: 'Advanced Features Installation',
                   items: [
-                      { label: 'Enhancing Researcher agent', slug: 'advanced_features_installation/similarity_search_for_researcher' },
+                      { label: 'Searching Large Codebases', slug: 'advanced_features_installation/similarity_search_for_researcher' },
                       { label: 'Self-correcting Bugs', slug: 'advanced_features_installation/logs_check' },
                       { label: 'Local Models', slug: 'advanced_features_installation/local_models' },
                   ],
