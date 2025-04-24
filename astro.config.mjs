@@ -38,6 +38,10 @@ export default defineConfig({
                   autogenerate: { directory: 'features' },
               },
               {
+                label: 'FAQ',
+                autogenerate: { directory: 'FAQ' },
+              },
+              {
                   label: 'Community',
                   autogenerate: { directory: 'community' },
               },

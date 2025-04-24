@@ -1,7 +1,9 @@
 ---
-title: Let Clean Coder See Your Frontend
+title: Frontend Feedback
 description: Frontend Feedback - allow Clean Coder to see your frontend
 ---
+
+![FF diagram](../../../assets/FF.jpg)
 
 Ever tried to write a frontend app without looking at the monitor? Don't make AI do that then. Let's allow agents to see how your frontend looks by automatically providing screenshots of it.
 
