@@ -2,11 +2,11 @@
 title: Why Clean Coder?
 description: Learn if Clean Coder is AI coder for you.
 ---
-Wondering why you should choose Clean Coder when there are already a few other AI coding systems available on the market? Take a minute to read this doc. You will never switch to another AI coder again.
+Wondering why you should choose Clean Coder when there are already a few other AI coding systems available on the market? Take a minute to read this doc. You will never switch to another system again.
 
 ## Dream
 
-Our dream is to create a self-sufficient AI coder that allows you to rest on vacations or do something else while your code is written automatically.
+Our dream is to create a self-sufficient AI coder that allows you to rest on vacations or do something else while your code is written fully automatically.
 
 That's why we're developing an AI coding framework that becomes more and more autonomous with every update.
 
