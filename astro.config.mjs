@@ -27,11 +27,7 @@ export default defineConfig({
             },
               {
                   label: 'Advanced Features Installation',
-                  items: [
-                      { label: 'Searching Large Codebases', slug: 'advanced_features_installation/similarity_search_for_researcher' },
-                      { label: 'Self-correcting Bugs', slug: 'advanced_features_installation/logs_check' },
-                      { label: 'Local Models', slug: 'advanced_features_installation/local_models' },
-                  ],
+                  autogenerate: { directory: 'advanced_features_installation' },
               },
               {
                   label: 'Features',
